@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
@@ -34,15 +34,15 @@
 		<PackageReference Include="Microsoft.CodeAnalysis.Scripting.Common" Version="4.0.1" PrivateAssets="all" GeneratePathProperty="true" />
 		<PackageReference Include="Microsoft.CodeAnalysis.CSharp.Scripting" Version="4.0.1" PrivateAssets="all" GeneratePathProperty="true" />		
 		
-		<PackageReference Include="Scriban.Signed" Version="5.10.0" PrivateAssets="all" GeneratePathProperty="true" />
+		<PackageReference Include="Scriban.Signed" Version="7.5.1" PrivateAssets="all" GeneratePathProperty="true" />
 		<PackageReference Include="NTypewriter" Version="0.5.9" PrivateAssets="all" GeneratePathProperty="true" />
 		<PackageReference Include="NTypewriter.CodeModel" Version="0.5.9" PrivateAssets="all" GeneratePathProperty="true" />
 		<PackageReference Include="NTypewriter.CodeModel.Functions" Version="0.5.9" PrivateAssets="all" GeneratePathProperty="true" />
 		<PackageReference Include="NTypewriter.CodeModel.Roslyn" Version="0.5.9" PrivateAssets="all" GeneratePathProperty="true" />
 		<PackageReference Include="NTypewriter.Editor.Config" Version="0.5.9" PrivateAssets="all" GeneratePathProperty="true" />
 		<PackageReference Include="NTypewriter.Runtime" Version="0.5.9" PrivateAssets="all" GeneratePathProperty="true" />
-		<PackageReference Include="System.Text.Json" Version="6.0.0" PrivateAssets="all" GeneratePathProperty="true" />
-		<PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="6.0.0" PrivateAssets="all" GeneratePathProperty="true" />		
+		<PackageReference Include="System.Text.Json" Version="10.0.8" PrivateAssets="all" GeneratePathProperty="true" />
+		<PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="10.0.8" PrivateAssets="all" GeneratePathProperty="true" />		
 		<PackageReference Include="Basic.Reference.Assemblies.NetStandard20" PrivateAssets="all" Version="1.4.5" GeneratePathProperty="true" />
 
 		<None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
